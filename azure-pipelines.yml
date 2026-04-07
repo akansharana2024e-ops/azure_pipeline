@@ -80,6 +80,6 @@ stages:
 
           - task: AzureWebApp@1
             inputs:
-              azureSubscription: 'YOUR_SERVICE_CONNECTION'
+              azureSubscription: 'f74ad191-5e6f-4fce-9f13-8c81f89006fe'
               appName: '$(appName)'
               package: '$(Pipeline.Workspace)/drop/app.zip'
